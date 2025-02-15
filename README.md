@@ -28,6 +28,7 @@ Before you begin, ensure you have the following installed:
    ```bash
    git clone https://github.com/Moh88CS/Java-Selenium-Testing.git
    cd Java-Selenium-Testing
+   gradle clean test
 
 ## IMPORTATNT NOTICE
 Please note that this test will not pass anymore becuase Amazon added a CAPTCHA, which prevents automation. I'm trying to set up or get API access to bypass this and also might consider other approaches. For now, please view the code statically. Thank you :)
