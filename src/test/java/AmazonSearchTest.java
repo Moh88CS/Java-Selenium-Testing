@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import pages.impl.HomePage;
 import pages.impl.SearchResultsPage;
 
@@ -20,10 +21,12 @@ public class AmazonSearchTest {
 
     @BeforeAll
     public static void setUpDriver() {
+        var options  = new ChromeOptions();
+        options.addArguments("--disable-blink-features=AutomationControlled", "user-agent=Mozilla/5.0...");
         WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(options);
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); // had to add because of bot captcha
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
 
     @Test

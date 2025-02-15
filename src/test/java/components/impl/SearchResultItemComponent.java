@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 
 public class SearchResultItemComponent extends WebComponent {
 
-    private static final By TITLE_SELECTOR = By.cssSelector("h2 .a-link-normal");
+    private static final By TITLE_SELECTOR = By.cssSelector(".a-link-normal.s-line-clamp-2");
 
     public SearchResultItemComponent(WebElement rootElement) {
         super(rootElement);
