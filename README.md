@@ -30,4 +30,4 @@ Before you begin, ensure you have the following installed:
    cd Java-Selenium-Testing
 
 ## IMPORTATNT NOTICE
-Please note that this test will not pass anymore becuase Amazon added a CAPTCHA, which prevents automation. I'm trying to set up or get API access to bypass this and also might consider other approaches. For now, please view the code staticly. Thank you :)
+Please note that this test will not pass anymore becuase Amazon added a CAPTCHA, which prevents automation. I'm trying to set up or get API access to bypass this and also might consider other approaches. For now, please view the code statically. Thank you :)
