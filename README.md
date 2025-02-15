@@ -17,7 +17,7 @@ This project is a robust and scalable **Selenium WebDriver** testing framework b
 Before you begin, ensure you have the following installed:
 
 - **Java Development Kit (JDK)**: Version 8 or higher.
-- **Maven**: For dependency management and build automation.
+- **Gradle**: For dependency management and build automation.
 - **IDE**: IntelliJ IDEA, Eclipse, or any other Java-compatible IDE.
 - **Git**: To clone the repository.
 - **WebDriver Executables**: Download the required WebDriver executables (e.g., `chromedriver`, `geckodriver`) and ensure they are added to your system's PATH.
